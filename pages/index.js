@@ -3,129 +3,52 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className={styles.container} style={{display: 'flex', flexDirection: 'column'}}>
+      <div style={{display: 'flex', width: '100%', justifyContent: 'center'}}>
+        <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDdxYzdoczN2ZjNzd3R3amM5MGozcTdkYnFoMGkwMW96OGEzbmNnYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gVsmn4qdyBn1Bra2tN/giphy.gif"  style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+        <img src="https://media0.giphy.com/media/GwbVjTKRkFgqs/giphy.webp?cid=790b7611xg3h0rv1ensw8rul45hoh650anpq4wy9nmt53c2l&ep=v1_gifs_search&rid=giphy.webp&ct=g"  style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+        <img src="https://media1.giphy.com/media/yG69gK8LN0Bm5YLcrC/giphy.webp?cid=790b7611xg3h0rv1ensw8rul45hoh650anpq4wy9nmt53c2l&ep=v1_gifs_search&rid=giphy.webp&ct=g"  style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+        <img src="https://media3.giphy.com/media/DA8op0omzFuwe14iyj/giphy.webp?cid=790b7611xg3h0rv1ensw8rul45hoh650anpq4wy9nmt53c2l&ep=v1_gifs_search&rid=giphy.webp&ct=g"  style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+      </div>
 
-      <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div style={{display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center'}}>
+        <div style={{height: '100%', display: 'flex', flexDirection: 'column'}}>
+          <h1>Sáp</h1>
+          <img src="https://media1.giphy.com/media/KIbxcYxk0KMGXkc10O/giphy.webp?cid=ecf05e47rbo9rx4tbdnjaguhfmr0enceqn9dgzrpqz72rwv7&ep=v1_gifs_search&rid=giphy.webp&ct=g" style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+          <h1>cố</h1>
         </div>
-      </main>
+        <img src="Remove-bg.ai_1715269161939.png" style={{width: '16rem', height: '20rem' }}/>
+        <div style={{height: '100%', display: 'flex', flexDirection: 'column'}}>
+          <h1>ơi</h1>
+          <img src="https://media3.giphy.com/media/PPgZCwZPKrLcw75EG1/200.webp?cid=790b7611xg3h0rv1ensw8rul45hoh650anpq4wy9nmt53c2l&ep=v1_gifs_search&rid=200.webp&ct=g" style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+          <h1>lên</h1>
+        </div>
+      </div>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
-
+      <div style={{display: 'flex', width: '100%', justifyContent: 'center'}}>
+        <img src="https://media1.giphy.com/media/CnVSvvHyslUkM/200w.webp?cid=790b7611xg3h0rv1ensw8rul45hoh650anpq4wy9nmt53c2l&ep=v1_gifs_search&rid=200w.webp&ct=g"  style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+        <img src="https://media2.giphy.com/media/l2QDTsTL2NhwOEAV2/giphy.webp?cid=790b7611xg3h0rv1ensw8rul45hoh650anpq4wy9nmt53c2l&ep=v1_gifs_search&rid=giphy.webp&ct=g"  style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+        <img src="https://media1.giphy.com/media/hT9psZ0PCtmYvFAxnc/giphy.webp?cid=790b7611xg3h0rv1ensw8rul45hoh650anpq4wy9nmt53c2l&ep=v1_gifs_search&rid=giphy.webp&ct=g"  style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+        <img src="https://media0.giphy.com/media/3o752eDHQgwl8zS3Oo/200.webp?cid=ecf05e47rbo9rx4tbdnjaguhfmr0enceqn9dgzrpqz72rwv7&ep=v1_gifs_search&rid=200.webp&ct=g"  style={{marginRight: '2rem', width: '6rem', height: '6rem'}}/>
+      </div>
       <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+        h1 {
+          font-family: monospace;
+          font-size: 3em;
+          animation: color-change 3s infinite;
         }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family:
-            Menlo,
-            Monaco,
-            Lucida Console,
-            Liberation Mono,
-            DejaVu Sans Mono,
-            Bitstream Vera Sans Mono,
-            Courier New,
-            monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family:
-            -apple-system,
-            BlinkMacSystemFont,
-            Segoe UI,
-            Roboto,
-            Oxygen,
-            Ubuntu,
-            Cantarell,
-            Fira Sans,
-            Droid Sans,
-            Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
+        
+        @keyframes color-change {
+          0% { color: red; }
+          20% { color: blue; }
+          40% { color: green; }
+          60% { color: yellow; }
+          80% { color: black; }
+          100% { color: red; }
         }
       `}</style>
     </div>
   );
 }
+
+
